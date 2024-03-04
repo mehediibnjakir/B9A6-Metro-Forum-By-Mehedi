@@ -28,7 +28,7 @@ const displayPost = posts => {
         //1 create a div 
         const postCard = document.createElement('div')
 
-        postCard.classList = `flex gap-4 lg:w-[750px] bg-base-100 rounded-2xl p-4`;
+        postCard.classList = `flex gap-4 lg:w-[750px] bg-base-100 rounded-2xl p-4 shadow-2xl`;
 
         //2 set inner html
         postCard.innerHTML = `<div class="flex justify-center">
